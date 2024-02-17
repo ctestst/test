@@ -1,0 +1,10 @@
+#imageContainer {
+    position: relative;
+    width: fit-content;
+}
+
+.overlayImage {
+    position: absolute;
+    top: 0;
+    left: 0;
+}

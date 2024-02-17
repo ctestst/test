@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layer Toggle Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="imageContainer">
+        <img src="https://drive.google.com/uc?export=view&id=1znHeBelvJAoQuBKTkL3cugWc68dlC6tb&usp=drive_fs" id="image1" class="overlayImage">
+        <img src="https://drive.google.com/uc?export=view&id=1zkSbsgnM4mXY67HOgeJ6F2oK9pzen0Ir&usp=drive_fs" id="image2" class="overlayImage">
+        <img src="https://drive.google.com/uc?export=view&id=1zmqMO-1f_5UToIyu1QRkDGQYjDPEJ7LF&usp=drive_fs" id="image3" class="overlayImage">
+    </div>
+    <div id="controls">
+        <label><input type="checkbox" onchange="toggleVisibility('image1')" checked> Image 1</label>
+        <label><input type="checkbox" onchange="toggleVisibility('image2')" checked> Image 2</label>
+        <label><input type="checkbox" onchange="toggleVisibility('image3')" checked> Image 3</label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
